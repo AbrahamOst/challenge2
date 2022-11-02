@@ -1,0 +1,43 @@
+/* reseteo de estilos */
+*,
+*::before,
+*::after {
+    margin: 0;
+}
+
+header {
+    margin-left: 11px;
+}
+
+h1 {
+    font-family: 'Playfair Display' serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    width: 323px;
+    height: 29px;
+    margin: 32px 41px 12px 0px;
+}
+
+/* Convierto a la imágen y el parrafo en flex para que queden en flex */
+
+#parrafo {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+#parrafo p {
+
+}
+
+#cake {
+    padding-top: 11.83px;
+    width: 352px;
+    height: 213.83px;
+}
+
+#cake img {
+    width: 100%;
+    border-radius: 12px;
+}
